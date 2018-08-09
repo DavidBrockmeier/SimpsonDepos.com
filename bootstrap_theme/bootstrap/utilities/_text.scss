@@ -56,12 +56,20 @@
     font-weight: $font-weight-light !important;
 }
 
+.font-weight-lighter {
+    font-weight: $font-weight-lighter !important;
+}
+
 .font-weight-normal {
     font-weight: $font-weight-normal !important;
 }
 
 .font-weight-bold {
     font-weight: $font-weight-bold !important;
+}
+
+.font-weight-bolder {
+    font-weight: $font-weight-bolder !important;
 }
 
 .font-italic {
@@ -96,4 +104,8 @@
 // Misc
 .text-hide {
     @include text-hide($ignore-warning: true);
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
 }

@@ -1,11 +1,12 @@
 /* Bootstrap theme customized with Pinegrow Web Editor */
 /* Vars go before the @import */
+/* Import the Bootstrap files */
+$blue: #007bff;
 $primary: #086737;
 $enable-shadows: true;
 $enable-gradients: true;
 $headings-font-family: "Century Gothic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$yiq-text-dark: black;
-$enable-rounded: true;
-/* Import the Bootstrap files */
+
 @import "bootstrap/bootstrap";
+
 /* Custom CSS rules come here */
